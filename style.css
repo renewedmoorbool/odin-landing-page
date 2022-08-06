@@ -38,6 +38,12 @@ ul {
     justify-content: space-around;
 }
 
+.header-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .header-description h1 {
     font-size: 48px;
     font-weight: 800;
@@ -60,4 +66,8 @@ ul {
     font-weight: 600;
 
     cursor: pointer;
+}
+
+.header-image img {
+    width: 200px;
 }
