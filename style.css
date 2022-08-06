@@ -11,10 +11,11 @@
     color: white;
 
     padding: 15px;
+    padding-bottom: 50px;
 
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: 70px;
 }
 
 ul {
@@ -37,7 +38,8 @@ ul {
 
 .header-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
 }
 
 .header-description {
@@ -57,7 +59,7 @@ ul {
 .header-description p {
     max-width: 500px;
 
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .header-sign-up {
@@ -75,7 +77,8 @@ ul {
 }
 
 .header-image img {
-    width: 200px;
+    width: 300px;
+    height: auto;
 }
 
 /* Content section */
