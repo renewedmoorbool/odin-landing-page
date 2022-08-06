@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Header section */
@@ -117,4 +122,28 @@ ul {
     border: 3px solid #3882F6;
     border-radius: 30px;
     object-fit: cover;
+}
+
+/* Testimonial section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    text-align: center;
+
+    padding: 60px;
+}
+
+.quote {
+    font-size: 25px;
+    font-style: italic;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.quote-creator {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 15px;
 }
