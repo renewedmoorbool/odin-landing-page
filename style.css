@@ -190,3 +190,15 @@ ul {
     font-size: 14px;
     cursor: pointer;
 }
+
+
+/* Footer section */
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
