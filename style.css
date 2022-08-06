@@ -122,11 +122,30 @@ ul {
 }
 
 .content-image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border: 3px solid #3882F6;
     border-radius: 30px;
-    object-fit: cover;
+    background-position: center;
+}
+
+.content-image-1 {
+    background-image: url('images/horsecard.jpg');
+
+}
+
+.content-image-2 {
+    background-image: url('images/horsecard-2.jpg');
+}
+
+.content-image-3 {
+    background-image: url('images/horsecard-3.jpg');
+    background-position: 40% 57%;
+}
+
+.content-image-4 {
+    background-image: url('images/horsecard-4.jpg');
+    background-position: 65% 38%;
 }
 
 /* Testimonial section */
